@@ -16,7 +16,7 @@ _Chromedrive.exe in this repo is for Chrome version 134_
   
 3. Create virtual environment for application
    
-   _python -m venv <virtual env name>_
+   _python -m venv <'virtual env name'>_
    
 5. Install dependencies using pip
    
@@ -32,11 +32,11 @@ _Chromedrive.exe in this repo is for Chrome version 134_
    
 3. Build Docker image
    
-   _docker build -t <image name> ._
+   _docker build -t <'image name'> ._
    
 5. Run Docker image
    
-   _docker run <image name>_
+   _docker run <'image name'>_
 
 
 ### Python Program functionality:
