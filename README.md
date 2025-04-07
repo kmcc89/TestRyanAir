@@ -2,8 +2,7 @@
 
 ## Python and Selenium based application to automate the search and booking of return flights with RyanAir airline.
 
-_Developed and tested on Windows OS using Python 3.12.4. Tested using Chrome version 134 + related Chrome driver version._
-_ Chromedrive.exe in this repo is for Chrome version 134_
+_Developed and tested on Windows OS using Python 3.12.4. Tested using Chrome version 134 + related Chrome driver version. Chromedrive.exe in this repo is for Chrome version 134_
 
 ### Steps to run on Windows:
 **_Pre-reqs_:** 
