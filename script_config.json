@@ -1,0 +1,39 @@
+{ 
+  "webpage": "https://www.ryanair.com/ie/en", 
+  "departure_city": "Dublin", 
+  "destination_city": "Barcelona", 
+  "number_of_adults" : 2,
+  "number_of_kids" : 0,
+
+  "passenger1_firstname" : "John",
+  "passenger1_lastname" : "Doe",
+  "passenger2_firstname" : "Jane",
+  "passenger2_lastname" : "Doe",
+
+  "cookies_no_thanks_xpath" : "//button[text()='No, thanks']",
+  "subscriber_close_xpath" : "/html/body/hp-app-root/hp-home-container/hp-home/hp-subscriber-widget-container/hp-subscriber-widget/div[1]/icon",
+  "departure_airport_xpath" : "/html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div[1]/div/fsw-input-button/div/div[2]/input",
+  "destination_airport_xpath" : "/html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div[1]/div/div/fsw-input-button/div/div[2]/input",
+  "departure_month_june" : "/html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[3]/div[2]",
+  "departure_day_14th" : "/html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/div/calendar[1]/calendar-body/div[4]/div[16]/div",
+  "return_month_june" : "/html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[3]/div[2]",
+  "return_day_21st" : "/html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/div/calendar[1]/calendar-body/div[5]/div[16]/div",
+  "increase_adults_xpath" : "/html/body/ry-tooltip/div[2]/ry-passengers-container/ry-passengers/ry-passengers-picker-container/ry-passengers-picker/ry-counter[1]/div[2]/div[3]",
+  "search_flights_xpath" : "/html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div[2]/div[2]/button",
+  "first_outbound_flight_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-summary-container/flights-summary/div/div[1]/journey-container/journey/flight-list/ry-spinner/div/flight-card-new[1]/div/div/div[4]/flight-card-summary/div/div[2]/button",
+  "first_return_flight_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-summary-container/flights-summary/div/div[2]/journey-container/journey/flight-list/ry-spinner/div/flight-card-new[1]/div/div/div[4]/flight-card-summary/div/div[2]/button",
+  
+  "basic_fare_select_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/fare-selector-container/fare-selector/div/fare-table-new-layout-container/fare-table-new-layout/table/thead/tr[2]/th[3]",
+  
+  "confirm_basic_fare_xpath" : "/html/body/app-root/ry-portal/div/fare-table-upgrade-container/fare-table-upgrade/ry-dialog/div[2]/table/tfoot/tr/td[2]/fare-table-upgrade-footer/button",
+  "passenger1_dropdown_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[1]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+  "passenger2_dropdown_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+  "passenger1_mr_option_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[1]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/div/div/ry-dropdown-item[1]/button/div/div[1]",
+  "passenger2_ms_option_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/div/div/ry-dropdown-item[3]/button/div/div[1]",
+  "passenger1_firstname_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[1]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[1]/div/input",
+  "passenger2_firstname_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[1]/div/input",
+  "passenger1_lastname_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[1]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[2]/div/input",
+  "passenger2_lastname_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container[2]/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[2]/div/input",
+  "passenger_details_continue_xpath" : "/html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/ng-component/div/continue-flow-container/continue-flow/div/div/span/button"
+}
+
