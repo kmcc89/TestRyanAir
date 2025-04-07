@@ -14,7 +14,9 @@ _Developed and tested on Windows OS using Python 3.12.4. Tested using Chrome ver
 3. Install dependencies using pip 
 
 ### Steps to run in Docker container:
-_Pre-req: Docker installed on local machine_
+**_Pre-req:_** 
+- _Docker installed on local machine_
+  
 1. Clone repo
 2. Build Docker image
 3. Run Docker image 
