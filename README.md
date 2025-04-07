@@ -2,10 +2,12 @@
 
 ## Python and Selenium based application to automate the search and booking of return flights with RyanAir airline.
 
+_Developed and tested on Windows OS using Python 3.12.4. Tested using Chrome version 135 + related Chrome driver version_
+
 ### Steps to run on Windows:
-_Pre-reqs: 
-- Python installed on local machine
-- Chrome driver to match local Chrome version placed inside application directory_
+**_Pre-reqs_:** 
+- _Python installed on local machine_
+- _Chrome driver to match local Chrome version placed inside application directory_
 
 1. Clone repo
 2. Create virtual environment for application
@@ -17,4 +19,3 @@ _Pre-req: Docker installed on local machine_
 2. Build Docker image
 3. Run Docker image 
 
-_Developed and tested on Windows OS using Python 3.12.4. Tested using Chrome version 135 + related Chrome driver version_
